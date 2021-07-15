@@ -1,0 +1,250 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../font/Roboto-Regular.ttf"); }
+
+.f80 {
+  font-size: 80px;
+  font-weight: bold; }
+
+.f64 {
+  font-size: 64px; }
+
+.f32 {
+  font-size: 32px; }
+
+.f20 {
+  font-size: 20px; }
+
+.f-style__italic {
+  font-style: initial; }
+
+body {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: 'Roboto';
+  font-style: italic; }
+
+.l-banner {
+  background-image: url("../images/banner.png");
+  background-position: center;
+  background-size: cover;
+  padding: 308px 0;
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .l-banner__title span {
+    margin-bottom: 32px; }
+  .l-banner__item {
+    max-width: 304px; }
+  .l-banner__wording {
+    margin-bottom: 40px;
+    padding: 0 10.5px; }
+
+.l-band {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+  .l-band__item {
+    margin-right: 16px; }
+    .l-band__item:last-child {
+      margin-right: 0; }
+
+.l-about {
+  padding: 56px 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .l-about__img {
+    margin: 0 auto;
+    margin-bottom: 20px; }
+  .l-about__title {
+    margin-bottom: 40px; }
+  .l-about__item {
+    font-weight: bold;
+    max-width: 412px;
+    text-align: center; }
+  .l-about__profile {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 28px; }
+
+.l-exp__text {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+  .l-exp__text::before {
+    content: '';
+    display: block;
+    width: 22px;
+    height: 22px;
+    background: #891818;
+    border-radius: 50%;
+    margin-right: 16px; }
+
+.l-exp__item {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  margin-bottom: 32px; }
+  .l-exp__item:last-child {
+    margin-bottom: 0; }
+
+.l-myBrand {
+  background: #000;
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding-top: 56px; }
+  .l-myBrand__title {
+    margin-bottom: 12px; }
+  .l-myBrand__subTitle {
+    display: block;
+    margin-bottom: 32px; }
+  .l-myBrand__item {
+    margin-bottom: 68px;
+    text-align: center; }
+
+.l-tShirt {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 160px; }
+  .l-tShirt__item:nth-child(1) {
+    text-align: center;
+    width: 100%;
+    height: 416px;
+    margin-bottom: 40px; }
+  .l-tShirt__item:nth-child(2) {
+    width: 588px;
+    height: 416px;
+    margin-right: 20px; }
+  .l-tShirt__item:nth-child(3) {
+    width: 588px;
+    height: 416px; }
+
+.l-other {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  padding-top: 56px; }
+  .l-other__item {
+    text-align: center;
+    margin-bottom: 56px; }
+  .l-other__title {
+    margin-bottom: 16px; }
+
+.l-works {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center; }
+  .l-works__item {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    margin-right: 24px;
+    text-align: center;
+    margin-bottom: 48px; }
+    .l-works__item:nth-child(3), .l-works__item:nth-child(5), .l-works__item:nth-child(8) {
+      margin-right: 0; }
+  .l-works__img {
+    margin-bottom: 16px; }
+
+.l-footer {
+  background: #000;
+  color: #fff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  padding: 64px 0; }
+  .l-footer__title {
+    margin-bottom: 16px; }
+  .l-footer__item {
+    text-align: center; }
+
+.l-connection__item {
+  margin-bottom: 16px; }
+
+.c-img {
+  vertical-align: middle; }
+
+/*# sourceMappingURL=all.css.map */
